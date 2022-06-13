@@ -23,8 +23,14 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 public class EmpServiceTest {
 
     // TODO [Step 1-6, 2-6] EmpServiceTest 작성
-	@Resource(name ="xmlEmpService")
+	// xml
+	//@Resource(name ="xmlEmpService")
+	//EmpService empService;
+	
+	// annotation
+	@Resource(name="annotationEmpService")
 	EmpService empService;
+	
 	
 	public EmpVO makeVO() {
 		return makeVO(101);
