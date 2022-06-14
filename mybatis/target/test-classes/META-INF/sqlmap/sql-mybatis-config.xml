@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN" "http://mybatis.org/dtd/mybatis-3-config.dtd">
+
+<configuration>
+<!-- TODO [Step 1-5] MyBatis Configuration File 작성  -->			
+	<typeAliases>
+		<typeAlias alias="empVO" type="egovframework.lab.dataaccess.service.EmpVO" />
+	</typeAliases>
+	<mappers>
+		<mapper resource="META-INF/sqlmap/mappers/lab-dao-class.xml" />
+		<mapper resource="META-INF/sqlmap/mappers/lab-mapper-interface.xml" />
+	</mappers>
+
+</configuration>
